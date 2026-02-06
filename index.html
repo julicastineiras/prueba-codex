@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elena Park | Junior UX/UI Designer</title>
+  <title>Juliana Castiñeiras | Junior UX/UI Designer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -12,19 +12,34 @@
 </head>
 <body>
   <div class="page-gradient" aria-hidden="true"></div>
+
   <header class="site-header" id="top">
     <nav class="nav" aria-label="Primary">
-      <a class="logo" href="#top">Elena Park</a>
-      <button class="icon-button nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+      <a class="logo" href="#top">Juliana Castiñeiras</a>
+
+      <button
+        class="icon-button nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
         <span class="sr-only">Open menu</span>
         <span class="hamburger" aria-hidden="true"></span>
       </button>
+
       <div class="nav-menu" id="nav-menu">
         <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#journey" class="nav-link">Journey</a>
         <a href="#contact" class="nav-link">Contact</a>
+
+        <!-- Language switch -->
+        <div class="lang-switch" aria-label="Language">
+          <a class="lang-link is-active" href="./">EN</a>
+          <a class="lang-link" href="./es/index.html">ES</a>
+        </div>
+
         <button class="icon-button theme-toggle" type="button" aria-pressed="false">
           <span class="sr-only">Toggle dark mode</span>
           <span class="theme-icon" aria-hidden="true"></span>
@@ -34,20 +49,26 @@
   </header>
 
   <main>
+    <!-- HERO -->
     <section class="hero section" id="hero">
       <div class="container hero-grid">
         <div class="hero-content">
           <p class="eyebrow">Junior UX/UI Designer • Frontend Learner</p>
           <h1>Designing calm, conversion-ready experiences with a product mindset.</h1>
-          <p class="lead">I create elegant interfaces rooted in user research, and I’m actively upskilling in HTML, CSS, and JavaScript to bridge design with front-end delivery.</p>
+          <p class="lead">
+            I create elegant interfaces rooted in user research, and I’m actively upskilling in HTML,
+            CSS, and JavaScript to bridge design with front-end delivery.
+          </p>
+
           <div class="cta-group">
             <a class="button primary" href="#projects">View Projects</a>
             <a class="button ghost" href="#contact">Contact</a>
           </div>
+
           <div class="hero-meta">
             <div>
               <span class="meta-label">Location</span>
-              <span class="meta-value">Seoul, KR · Remote</span>
+              <span class="meta-value">Buenos Aires, AR · Remote</span>
             </div>
             <div>
               <span class="meta-label">Available</span>
@@ -55,11 +76,15 @@
             </div>
           </div>
         </div>
+
         <div class="hero-card glass">
           <div class="portrait" aria-hidden="true"></div>
           <div class="hero-card-body">
             <h2>Crafting human-first interfaces</h2>
-            <p>Currently focused on interaction design, responsive systems, and building a live design portfolio.</p>
+            <p>
+              Currently focused on interaction design, responsive systems,
+              and building a live design portfolio.
+            </p>
             <div class="badge-row">
               <span class="badge">UX Research</span>
               <span class="badge">UI Design</span>
@@ -70,18 +95,30 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="section" id="about">
       <div class="container">
         <div class="section-header">
           <p class="eyebrow">About</p>
           <h2>Designer with a builder’s curiosity.</h2>
-          <p class="lead">I blend thoughtful research with clean visual systems, then validate ideas through lightweight front-end prototypes. I’m early in my journey and driven by feedback.</p>
+          <p class="lead">
+            I blend thoughtful research with clean visual systems,
+            then validate ideas through lightweight front-end prototypes.
+            I’m early in my journey and driven by feedback.
+          </p>
         </div>
+
         <div class="about-grid">
           <div class="glass about-card">
             <h3>Short bio</h3>
-            <p>I’m a junior UX/UI designer who loves simplifying complex flows into clear, delightful experiences. I’ve completed product design coursework and I’m learning frontend fundamentals to collaborate more effectively with engineers.</p>
+            <p>
+              I’m a junior UX/UI designer who loves simplifying complex flows
+              into clear, delightful experiences. I’ve completed product design
+              coursework and I’m learning frontend fundamentals to collaborate
+              more effectively with engineers.
+            </p>
           </div>
+
           <div class="glass about-card">
             <h3>What I’m focusing on now</h3>
             <ul class="focus-list">
@@ -94,21 +131,25 @@
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section class="section" id="skills">
       <div class="container">
         <div class="section-header">
           <p class="eyebrow">Skills</p>
           <h2>Balanced across UX, UI, and frontend foundations.</h2>
         </div>
+
         <div class="card-grid">
           <article class="glass skill-card">
             <h3>UX / Product</h3>
             <p>Research planning, interviews, personas, user flows, and information architecture.</p>
           </article>
+
           <article class="glass skill-card">
             <h3>UI Design</h3>
             <p>Wireframes, visual design, component libraries, prototyping, and interaction polish.</p>
           </article>
+
           <article class="glass skill-card">
             <h3>Frontend</h3>
             <p>Semantic HTML, responsive CSS, and JavaScript fundamentals for lightweight prototypes.</p>
@@ -117,6 +158,7 @@
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section class="section" id="projects">
       <div class="container">
         <div class="section-header">
@@ -124,6 +166,7 @@
           <h2>Selected case studies</h2>
           <p class="lead">Early-stage work focused on clarity, usability, and scalable UI systems.</p>
         </div>
+
         <div class="projects-grid">
           <article class="glass project-card">
             <div class="project-visual gradient-one" aria-hidden="true"></div>
@@ -131,44 +174,47 @@
               <h3>Pulse Wellness App</h3>
               <p>Redesigned onboarding to reduce drop-off and support habit-building.</p>
               <div class="project-meta">
-                <span>Role: UX/UI</span>
-                <span>Tools: Figma, FigJam</span>
+                <span><span>Role:</span> <span>UX/UI</span></span>
+                <span><span>Tools:</span> <span>Figma, FigJam</span></span>
               </div>
               <a class="button small" href="#contact">Case Study</a>
             </div>
           </article>
+
           <article class="glass project-card">
             <div class="project-visual gradient-two" aria-hidden="true"></div>
             <div class="project-body">
               <h3>Orbit Finance Dashboard</h3>
               <p>Created a responsive dashboard with accessible data visualization.</p>
               <div class="project-meta">
-                <span>Role: UI, UX Writing</span>
-                <span>Tools: Figma, Notion</span>
+                <span><span>Role:</span> <span>UI, UX Writing</span></span>
+                <span><span>Tools:</span> <span>Figma, Notion</span></span>
               </div>
               <a class="button small" href="#contact">View</a>
             </div>
           </article>
+
           <article class="glass project-card">
             <div class="project-visual gradient-three" aria-hidden="true"></div>
             <div class="project-body">
               <h3>CityPass Transit</h3>
               <p>Improved ticket purchase flow and mobile navigation for commuters.</p>
               <div class="project-meta">
-                <span>Role: UX Research</span>
-                <span>Tools: Miro, Figma</span>
+                <span><span>Role:</span> <span>UX Research</span></span>
+                <span><span>Tools:</span> <span>Miro, Figma</span></span>
               </div>
               <a class="button small" href="#contact">Case Study</a>
             </div>
           </article>
+
           <article class="glass project-card">
             <div class="project-visual gradient-four" aria-hidden="true"></div>
             <div class="project-body">
               <h3>Lumen Studio Site</h3>
               <p>Crafted a premium marketing site with light motion and clean storytelling.</p>
               <div class="project-meta">
-                <span>Role: UI, Frontend</span>
-                <span>Tools: HTML, CSS, JS</span>
+                <span><span>Role:</span> <span>UI, Frontend</span></span>
+                <span><span>Tools:</span> <span>HTML, CSS, JS</span></span>
               </div>
               <a class="button small" href="#contact">View</a>
             </div>
@@ -177,20 +223,23 @@
       </div>
     </section>
 
+    <!-- JOURNEY -->
     <section class="section" id="journey">
       <div class="container">
         <div class="section-header">
           <p class="eyebrow">Experience & Education</p>
           <h2>Growing through hands-on design work.</h2>
         </div>
+
         <div class="timeline">
           <div class="timeline-item glass">
-            <div class="timeline-year">2024 — Now</div>
+            <div class="timeline-year">2025 — Now</div>
             <div>
-              <h3>UX/UI Design Intern · Bright Labs</h3>
-              <p>Supporting product discovery, user testing, and UI refinement across B2B tools.</p>
+              <h3>Junior UX/UI Designer · Quality Soft Argentina S.A.</h3>
+              <p>Supporting product discovery, user testing, and UI refinement.</p>
             </div>
           </div>
+
           <div class="timeline-item glass">
             <div class="timeline-year">2023 — 2024</div>
             <div>
@@ -198,6 +247,7 @@
               <p>Completed coursework in UX research, visual systems, and design strategy.</p>
             </div>
           </div>
+
           <div class="timeline-item glass">
             <div class="timeline-year">2022 — 2023</div>
             <div>
@@ -209,6 +259,7 @@
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section" id="contact">
       <div class="container">
         <div class="section-header">
@@ -216,38 +267,54 @@
           <h2>Let’s create something thoughtful.</h2>
           <p class="lead">Open to internships, collaborations, and mentorship opportunities.</p>
         </div>
+
         <div class="contact-grid">
-          <form class="glass contact-form" id="contact-form" novalidate>
+          <form
+            class="glass contact-form"
+            id="contact-form"
+            novalidate
+            data-err-name="Please enter your name."
+            data-err-email="Please enter a valid email."
+            data-err-msg="Tell me a bit about your project."
+            data-toast-ok="Thanks! Your message is ready to send once a backend is connected."
+          >
             <div class="field">
               <label for="name">Name</label>
               <input type="text" id="name" name="name" placeholder="Your name" required />
               <span class="error" data-error-for="name"></span>
             </div>
+
             <div class="field">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" placeholder="you@email.com" required />
               <span class="error" data-error-for="email"></span>
             </div>
+
             <div class="field">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="4" placeholder="Tell me about your project" required></textarea>
               <span class="error" data-error-for="message"></span>
             </div>
+
             <button class="button primary" type="submit">Send message</button>
             <p class="form-hint">This form is front-end only — it won’t send an email yet.</p>
           </form>
+
           <div class="contact-details glass">
             <h3>Find me online</h3>
             <p>Let’s connect and chat about design, learning, and building meaningful products.</p>
+
             <div class="social-links">
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.behance.net" target="_blank" rel="noreferrer">Behance</a>
+              <a href="https://www.linkedin.com/in/julianacastineiras/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/julicastineiras" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.behance.net/julianacastineiras" target="_blank" rel="noreferrer">Behance</a>
             </div>
+
             <div class="contact-card">
               <span class="meta-label">Email</span>
-              <span class="meta-value">hello@elenapark.design</span>
+              <span class="meta-value">juliana.castineiras@gmail.com</span>
             </div>
+
             <div class="contact-card">
               <span class="meta-label">Availability</span>
               <span class="meta-value">Weekdays · 10:00 - 18:00</span>
@@ -260,7 +327,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>© 2025 Elena Park. Designed with care.</p>
+      <p>© 2025 Juliana Castiñeiras. Designed with care.</p>
       <a href="#top" class="footer-link">Back to top</a>
     </div>
   </footer>
@@ -268,6 +335,6 @@
   <button class="scroll-top" type="button" aria-label="Scroll to top">↑</button>
   <div class="toast" role="status" aria-live="polite"></div>
 
-  <script src="app.js"></script>
+  <script src="./app.js" defer></script>
 </body>
 </html>

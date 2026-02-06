@@ -1,0 +1,329 @@
+<!-- Open es/index.html in a browser -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juliana Castiñeiras | Diseñadora UX/UI Jr</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="page-gradient" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Principal">
+      <a class="logo" href="#top">Juliana Castiñeiras</a>
+
+      <button class="icon-button nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Abrir menú</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">Sobre mí</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Proyectos</a>
+        <a href="#journey" class="nav-link">Trayectoria</a>
+        <a href="#contact" class="nav-link">Contacto</a>
+
+        <!-- Language switch -->
+        <div class="lang-switch" aria-label="Idioma">
+          <a class="lang-link" href="../index.html">EN</a>
+          <a class="lang-link is-active" href="./">ES</a>
+        </div>
+
+        <button class="icon-button theme-toggle" type="button" aria-pressed="false">
+          <span class="sr-only">Cambiar modo oscuro</span>
+          <span class="theme-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Diseñadora UX/UI Jr • Aprendiendo Frontend</p>
+          <h1>Diseño experiencias claras y elegantes, con mentalidad de producto.</h1>
+          <p class="lead">
+            Creo interfaces basadas en investigación de usuarios y estoy fortaleciendo HTML, CSS y JavaScript para conectar diseño con implementación front-end.
+          </p>
+
+          <div class="cta-group">
+            <a class="button primary" href="#projects">Ver proyectos</a>
+            <a class="button ghost" href="#contact">Contacto</a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Ubicación</span>
+              <span class="meta-value">Buenos Aires, AR · Remoto</span>
+            </div>
+            <div>
+              <span class="meta-label">Disponibilidad</span>
+              <span class="meta-value">Abierta a pasantías</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card glass">
+          <div class="portrait" aria-hidden="true"></div>
+          <div class="hero-card-body">
+            <h2>Interfaces pensadas para personas</h2>
+            <p>
+              Actualmente enfocada en diseño de interacción, sistemas responsive y la construcción de un portfolio en vivo.
+            </p>
+            <div class="badge-row">
+              <span class="badge">Investigación UX</span>
+              <span class="badge">Diseño UI</span>
+              <span class="badge">Frontend</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Diseño con curiosidad de builder.</h2>
+          <p class="lead">
+            Combino investigación con sistemas visuales limpios, y valido ideas mediante prototipos front-end livianos. Estoy dando mis primeros pasos y aprendo mucho del feedback.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass about-card">
+            <h3>Bio breve</h3>
+            <p>
+              Soy diseñadora UX/UI junior y disfruto simplificar flujos complejos en experiencias claras y agradables.
+              Me formé en diseño de producto y estoy aprendiendo fundamentos de frontend para colaborar mejor con desarrolladores.
+            </p>
+          </div>
+
+          <div class="glass about-card">
+            <h3>En qué estoy enfocada ahora</h3>
+            <ul class="focus-list">
+              <li>Diseñar sistemas de UI responsive con componentes reutilizables.</li>
+              <li>Crear prototipos interactivos con HTML, CSS y JavaScript.</li>
+              <li>Mejorar handoff, accesibilidad y UX writing.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Skills</p>
+          <h2>Equilibrio entre UX, UI y fundamentos de frontend.</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="glass skill-card">
+            <h3>UX / Producto</h3>
+            <p>Planificación de research, entrevistas, personas, user flows y arquitectura de información.</p>
+          </article>
+
+          <article class="glass skill-card">
+            <h3>Diseño UI</h3>
+            <p>Wireframes, diseño visual, librerías de componentes, prototipado y detalle de interacción.</p>
+          </article>
+
+          <article class="glass skill-card">
+            <h3>Frontend</h3>
+            <p>HTML semántico, CSS responsive y fundamentos de JavaScript para prototipos livianos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Proyectos</p>
+          <h2>Case studies seleccionados</h2>
+          <p class="lead">Trabajo inicial enfocado en claridad, usabilidad y sistemas de UI escalables.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="glass project-card">
+            <div class="project-visual gradient-one" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Pulse Wellness App</h3>
+              <p>Rediseño del onboarding para reducir abandono y acompañar la creación de hábitos.</p>
+              <div class="project-meta">
+                <span><span>Rol:</span> <span>UX/UI</span></span>
+                <span><span>Herramientas:</span> <span>Figma, FigJam</span></span>
+              </div>
+              <a class="button small" href="#contact">Case study</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-visual gradient-two" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Orbit Finance Dashboard</h3>
+              <p>Dashboard responsive con visualización de datos accesible.</p>
+              <div class="project-meta">
+                <span><span>Rol:</span> <span>UI, UX Writing</span></span>
+                <span><span>Herramientas:</span> <span>Figma, Notion</span></span>
+              </div>
+              <a class="button small" href="#contact">Ver</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-visual gradient-three" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>CityPass Transit</h3>
+              <p>Mejora del flujo de compra y navegación mobile para commuters.</p>
+              <div class="project-meta">
+                <span><span>Rol:</span> <span>Investigación UX</span></span>
+                <span><span>Herramientas:</span> <span>Miro, Figma</span></span>
+              </div>
+              <a class="button small" href="#contact">Case study</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-visual gradient-four" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Lumen Studio Site</h3>
+              <p>Sitio premium con motion sutil y storytelling claro.</p>
+              <div class="project-meta">
+                <span><span>Rol:</span> <span>UI, Frontend</span></span>
+                <span><span>Herramientas:</span> <span>HTML, CSS, JS</span></span>
+              </div>
+              <a class="button small" href="#contact">Ver</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Experiencia y Educación</p>
+          <h2>Creciendo con práctica y proyectos reales.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item glass">
+            <div class="timeline-year">2025 — Hoy</div>
+            <div>
+              <h3>Diseñadora UX/UI Jr · Quality Soft Argentina S.A.</h3>
+              <p>Apoyo en discovery, tests con usuarios y refinamiento de interfaces.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item glass">
+            <div class="timeline-year">2023 — 2024</div>
+            <div>
+              <h3>Certificación en Diseño de Producto · Interaction Institute</h3>
+              <p>Formación en investigación UX, sistemas visuales y estrategia de diseño.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item glass">
+            <div class="timeline-year">2022 — 2023</div>
+            <div>
+              <h3>Diseño Visual Freelance</h3>
+              <p>Diseño de landing pages, sistemas de marca y piezas visuales para startups.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Contacto</p>
+          <h2>Creemos algo con intención.</h2>
+          <p class="lead">Abierta a pasantías, colaboraciones y oportunidades de mentoría.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form
+            class="glass contact-form"
+            id="contact-form"
+            novalidate
+            data-err-name="Por favor ingresá tu nombre."
+            data-err-email="Por favor ingresá un email válido."
+            data-err-msg="Contame un poco sobre tu proyecto."
+            data-toast-ok="¡Gracias! Tu mensaje quedó listo para enviar cuando conectes un backend."
+          >
+            <div class="field">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+              <span class="error" data-error-for="name"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+              <span class="error" data-error-for="email"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="4" placeholder="Contame sobre tu proyecto" required></textarea>
+              <span class="error" data-error-for="message"></span>
+            </div>
+
+            <button class="button primary" type="submit">Enviar mensaje</button>
+            <p class="form-hint">Este formulario es solo front-end — todavía no envía emails.</p>
+          </form>
+
+          <div class="contact-details glass">
+            <h3>Encontrame online</h3>
+            <p>Conectemos para hablar de diseño, aprendizaje y productos con impacto.</p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/julianacastineiras/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/julicastineiras" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.behance.net/julianacastineiras" target="_blank" rel="noreferrer">Behance</a>
+            </div>
+
+            <div class="contact-card">
+              <span class="meta-label">Email</span>
+              <span class="meta-value">juliana.castineiras@gmail.com</span>
+            </div>
+
+            <div class="contact-card">
+              <span class="meta-label">Disponibilidad</span>
+              <span class="meta-value">Lunes a viernes · 10:00 - 18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 Juliana Castiñeiras. Diseñado con cuidado.</p>
+      <a href="#top" class="footer-link">Volver arriba</a>
+    </div>
+  </footer>
+
+  <button class="scroll-top" type="button" aria-label="Volver arriba">↑</button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="../app.js" defer></script>
+</body>
+</html>

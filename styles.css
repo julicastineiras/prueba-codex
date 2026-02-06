@@ -173,6 +173,68 @@ h3 {
   background: var(--accent);
 }
 
+/* ===== Language switch (EN/ES) ===== */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .lang-switch {
+  background: rgba(11, 14, 23, 0.35);
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.lang-btn:hover {
+  transform: translateY(-1px);
+  color: var(--text);
+}
+
+.lang-btn[aria-pressed="true"] {
+  color: var(--text);
+  background: rgba(51, 93, 255, 0.12);
+  border: 1px solid rgba(51, 93, 255, 0.25);
+}
+
+/* Links version of language switch (option 3) */
+.lang-link{
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.lang-link:hover{
+  transform: translateY(-1px);
+  color: var(--text);
+}
+
+.lang-link.is-active{
+  color: var(--text);
+  background: rgba(51, 93, 255, 0.12);
+  border: 1px solid rgba(51, 93, 255, 0.25);
+}
+
+
 .icon-button {
   border: none;
   background: transparent;
@@ -636,6 +698,11 @@ textarea {
   .footer-content {
     flex-direction: column;
     gap: 12px;
+  }
+
+  .lang-switch {
+    width: 100%;
+    justify-content: space-between;
   }
 }
 
